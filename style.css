@@ -183,14 +183,10 @@ p{ margin:0 0 1em; }
   .grid-2{ grid-template-columns:1fr; }
 }
 
-/* Brand monogram — brass ring, used beside the wordmark */
-.brand-mark{
-  display:inline-flex; align-items:center; justify-content:center;
-  width:34px; height:34px; border:1px solid var(--brass); border-radius:50%;
-  font-family:var(--display); font-size:.85rem; font-weight:600; color:var(--brass);
-  margin-right:10px; vertical-align:middle; letter-spacing:0;
-}
+/* Brand logo */
 .nav-logo{ display:inline-flex; align-items:center; }
+.nav-logo img{ height:38px; width:auto; display:block; }
+.footer-logo img{ height:34px; width:auto; display:block; }
 
 .card{
   background:var(--ivory-soft); border:1px solid var(--line); padding:32px 28px;
